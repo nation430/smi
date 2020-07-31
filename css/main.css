@@ -308,7 +308,7 @@ a {
 }
 .featured {
   position: relative;
-  background-image: url("../img/featured.jpg");
+  background-image: url("../img/trans-bg.png");
   background-attachment: fixed;
   background-position: center center !important;
   background-size: cover;
@@ -814,8 +814,38 @@ a {
 }
 
 /* service3 */
-.hire-details {
-  margin: 4rem;
+
+.with-operation {
+  background: rgba(222, 222, 222, 0.15);
+  margin-bottom: 12px;
+}
+.hire-over:hover {
+  box-shadow: 0 0 5px 0 rgba(1, 1, 1, 0.15);
+}
+.hire-details h4 {
+  font-size: 24px;
+  padding-bottom: 15px;
+  font-weight: 700;
+}
+.hire-details .location {
+  position: absolute;
+  bottom: 26px;
+  max-width: 200px;
+}
+.with-operator h5 {
+  background: rgba(222, 222, 222, 0.2);
+  padding: 2px 10px;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.3);
+  font-size: 15px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.price_value span {
+  padding: 2px 5px;
+  font-weight: 600;
+  color: #fa4c23;
+  font-family: "Roboto", Helvetica, Roboto, Arial, sans-serif;
 }
 /* 
  $primary-color-yellow:#f7e73a;
