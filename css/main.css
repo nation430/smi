@@ -141,6 +141,38 @@ a {
   margin: 0;
   margin-bottom: 36px;
 }
+@media (max-width: 427px) {
+  .main-banner-content h1 {
+    font-size: 40px !important;
+  }
+
+  .main-banner-content .text {
+    font-size: 13px !important;
+  }
+  .banner-buttons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .theme-btn {
+    margin-top: 20px !important;
+  }
+
+  .machine {
+    width: 390px;
+    height: 303px !important;
+    position: relative;
+    background: dodgerblue;
+  }
+  .machine-body {
+    background-repeat: repeat !important;
+    position: absolute !important;
+    left: 0px !important;
+    top: 0px !important;
+    width: 388px !important;
+  }
+}
+
 @media (max-width: 375px) {
   .main-banner-content h1 {
     font-size: 58px;
